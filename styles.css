@@ -78,14 +78,12 @@ p{
 
 .searchContainer {
     display: flex;
-    width: 100%;
     flex: 3 3 80%;
     position: relative;
+    width: 100%;
     border: 1px solid rgba(204, 204, 204, 0.534);
     border-radius: 10px;
     overflow: hidden;
-    /* width: fit-content; */
-
   }
   
   .searchIcon {
@@ -95,7 +93,7 @@ p{
   
   .searchBox {
     border: 0;
-    padding: 0.5rem 0.5rem 0.5rem 0;
+    /* padding: 0.5rem 0.5rem 0.5rem 0; */
     padding-left: 10%;
-    
+    width: 100%;
   }
